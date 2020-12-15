@@ -1,3 +1,9 @@
+document.body.className += 'fade-out';
+
+$(function() {
+    $('body').removeClass('fade-out');
+})
+
 // activates img carousel
 $(document).ready(function () {
     $('.carousel').carousel({

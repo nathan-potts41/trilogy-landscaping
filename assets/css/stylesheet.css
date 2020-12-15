@@ -1,13 +1,29 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    opacity: 1;
+    transition: 2.5s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 .carousel .carousel-item {
     width: 40%; 
-    min-height: 90%;
+    min-height: 100%;
 }
 
 .gallery {
     min-height: 290px;
+    max-height: 290px;
 }
 
 .divider {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.logo-color {
+    background-color: #85c127;
 }
