@@ -10,7 +10,7 @@ body.fade-out {
 }
 
 .carousel .carousel-item {
-    width: 40%; 
+    width: 40%;
     min-height: 100%;
 }
 
@@ -26,4 +26,11 @@ body.fade-out {
 
 .logo-color {
     background-color: #85c127;
+}
+
+.logo-sidenav {
+    bottom: 0;
+    display: block;
+    margin: 50px auto;
+    position: absolute;
 }

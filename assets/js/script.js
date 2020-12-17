@@ -1,6 +1,6 @@
 document.body.className += 'fade-out';
 
-$(function() {
+$(function () {
     $('body').removeClass('fade-out');
 })
 
@@ -14,6 +14,11 @@ $(document).ready(function () {
 });
 
 //activated img popout
-$(document).ready(function(){
+$(document).ready(function () {
     $('.materialboxed').materialbox();
+});
+
+//sidenav at smaller screens
+$(document).ready(function(){
+    $('.sidenav').sidenav();
   });
